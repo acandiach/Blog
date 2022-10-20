@@ -1,3 +1,7 @@
 .formulario {
+    margin: 0 auto;
     background-color: #aca7a7;
+}
+.formulario fieldset {
+    border: none;
 }
