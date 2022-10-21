@@ -1,7 +1,21 @@
-.formulario {
-    margin: 0 auto;
-    background-color: #aca7a7;
+/* personal information */
+.container {
+    display: grid;
+    grid-template-columns: 50% 50%;
 }
-.formulario fieldset {
-    border: none;
+.fact {
+    font-weight: 700;
+    text-align: center;
+}
+
+/* Contact */
+.formulario {
+    width: auto;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.formulario label {
+    display: block;
+    margin-top: 20px;
 }
