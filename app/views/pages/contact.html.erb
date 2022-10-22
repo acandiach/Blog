@@ -1,21 +1,18 @@
-<section>
-  <h2>Formulario de Contacto</h2>
-  <form class="formulario">
-    <fieldset>
-    <div>
-      <label class="campo"for="">Nombre</label>
-      <input type="text" placeholder="Nombre">
-    </div>
+<h1 class="title-contact">Contact Form</h1>
 
-    <div>
-      <label class="campo"for="">Correo</label>
-      <input type="text" placeholder="Correo">
-    </div>
-
-    <div>
-      <label class="campo" for="">Comentarios</label>
-      <textarea id="" name="" cols="30" rows="10"></textarea>
-    </div>
-    </fieldset>
-  </form>
-</section>
+<form class="form">
+  <div class="form-group">
+    <label for="exampleInputPassword1">Name</label>
+    <input type="text" class="form-control" id="exampleInputPassword1">
+  </div>
+  <div class="form-group">
+    <label for="exampleInputEmail1">Email address</label>
+    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+  </div>
+  <div class="form-group">
+    <label>Messagge</label>
+    <textarea class="form-control"></textarea>
+  </div>
+  <button type="submit" class="btn btn-primary">Send</button>
+</form>
