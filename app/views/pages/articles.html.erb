@@ -1,0 +1,12 @@
+
+<h2 class="title-contact">All Articles</h2>
+<%= link_to "Add New Article", article_new_path, class: 'btn btn-primary' %><br>
+<br>
+<% @articles.each do |art| %>
+  <h3 class='movies'>Title: <span><%= art.title %></span></h3>
+  <h3 class='movies'>Content: <span><%= art.content %></span></h3>
+<br> 
+<br> 
+<% end %> 
+<%= link_to "Add New Article", article_new_path, class: 'btn btn-primary' %><br>
+<%# pagy = para crear paginas en las vistas web %>
