@@ -69,3 +69,7 @@ group :development do
   # gem "spring"
 end
 
+# postgresql for deploy in heroku
+group :production do
+  gem "pg"
+end
