@@ -22,8 +22,9 @@ test:
 
 production:
   adapter: postgresql
+	encoding: unicode
   pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
-  database: blog
+  database: db/test.sqlite3
 	username: blog
   password: <%= ENV["BLOG_DATABASE_PASSWORD"] %>
 
