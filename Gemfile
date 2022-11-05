@@ -32,6 +32,10 @@ gem "jbuilder"
 
 # Use faker data
 gem 'faker'
+
+# Use kaminari
+gem 'kaminari'
+
 # Use Kredis to get higher-level data types in Redis [https://github.com/rails/kredis]
 # gem "kredis"
 

@@ -1,0 +1,9 @@
+<h1 class='movies'>Article: <span><%= @article.title %></span></h1>
+<p class='movies'><%= @article.content %></p>
+
+<div>
+  <%= link_to "Back to Articles", articles_path, class: 'btn btn-primary' %>
+  <%= link_to "Edit this Article", edit_article_path, class: 'btn btn-primary' %>
+</div>
+<br>
+<%= button_to "Delete this Article", article_path, method: :delete, class: 'btn btn-primary' %>
